@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  border: 5px solid black;
+}
+
+header {
+  text-align: center;
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+}
+
+.price-tag {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.type-ship, .product-details-title {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.product-details-title {
+  font-size: 18px;
+}
+
+/*LVHA*/
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}A
+
+a:active {
+  color: black;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 5px solid black;
+}
