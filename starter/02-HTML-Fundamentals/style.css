@@ -1,5 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif, Arial;
+  color: black;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
 }
 
 article {
@@ -10,6 +21,7 @@ header {
   text-align: center;
   background-color: #f7f7f7;
   text-transform: uppercase;
+  padding: 15px;
 }
 
 .price-tag {
@@ -22,11 +34,24 @@ header {
   text-transform: uppercase;
 }
 
+.type-ship {
+  margin-bottom: 15px;
+}
 .product-details-title {
   font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.description-product {
+  margin-bottom: 10px;
 }
 
 /*LVHA*/
+
+a {
+  margin-bottom: 10px;
+}
 
 a:link {
   color: black;
@@ -38,16 +63,36 @@ a:visited {
 
 a:hover {
   color: black;
-}A
+}
 
 a:active {
   color: black;
 }
 
+.caracterist-list {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+li:last-child {
+  margin-bottom: 10px;
+}
+
 button {
+  width: 100%;
   background-color: black;
   color: white;
   font-size: 20px;
   text-transform: uppercase;
-  border: 5px solid black;
+  padding: 10px;
+  border: 0;
+  border-top: 5px solid black;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
 }
